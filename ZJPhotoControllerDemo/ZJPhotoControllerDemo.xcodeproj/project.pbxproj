@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DB12C031EA7058600A55EB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB12C021EA7058600A55EB1 /* main.m */; };
+		9DB12C061EA7058600A55EB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB12C051EA7058600A55EB1 /* AppDelegate.m */; };
+		9DB12C091EA7058600A55EB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB12C081EA7058600A55EB1 /* ViewController.m */; };
+		9DB12C0C1EA7058600A55EB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB12C0A1EA7058600A55EB1 /* Main.storyboard */; };
+		9DB12C0E1EA7058600A55EB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DB12C0D1EA7058600A55EB1 /* Assets.xcassets */; };
+		9DB12C111EA7058600A55EB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB12C0F1EA7058600A55EB1 /* LaunchScreen.storyboard */; };
+		9DB12C1C1EA7058600A55EB1 /* ZJPhotoControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB12C1B1EA7058600A55EB1 /* ZJPhotoControllerDemoTests.m */; };
+		9DB12C271EA7058600A55EB1 /* ZJPhotoControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB12C261EA7058600A55EB1 /* ZJPhotoControllerDemoUITests.m */; };
+		9DB12C4E1EA705DE00A55EB1 /* image_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB12C351EA705DE00A55EB1 /* image_0.jpg */; };
+		9DB12C4F1EA705DE00A55EB1 /* image_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB12C361EA705DE00A55EB1 /* image_1.jpg */; };
+		9DB12C501EA705DE00A55EB1 /* image_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB12C371EA705DE00A55EB1 /* image_2.jpg */; };
+		9DB12C511EA705DE00A55EB1 /* image_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB12C381EA705DE00A55EB1 /* image_3.jpg */; };
+		9DB12C521EA705DE00A55EB1 /* image_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB12C391EA705DE00A55EB1 /* image_4.jpg */; };
+		9DB12C531EA705DE00A55EB1 /* image_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB12C3A1EA705DE00A55EB1 /* image_5.jpg */; };
+		9DB12C541EA705DE00A55EB1 /* image_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB12C3B1EA705DE00A55EB1 /* image_6.jpg */; };
+		9DB12C551EA705DE00A55EB1 /* image_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB12C3C1EA705DE00A55EB1 /* image_7.jpg */; };
+		9DB12C561EA705DE00A55EB1 /* image_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB12C3D1EA705DE00A55EB1 /* image_8.jpg */; };
+		9DB12C6F1EA70DB200A55EB1 /* ZJAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB12C621EA70DB200A55EB1 /* ZJAction.m */; };
+		9DB12C701EA70DB200A55EB1 /* ZJActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB12C641EA70DB200A55EB1 /* ZJActionSheet.m */; };
+		9DB12C711EA70DB200A55EB1 /* ZJIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB12C661EA70DB200A55EB1 /* ZJIndicatorView.m */; };
+		9DB12C721EA70DB200A55EB1 /* ZJPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB12C681EA70DB200A55EB1 /* ZJPhoto.m */; };
+		9DB12C731EA70DB200A55EB1 /* ZJPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB12C6A1EA70DB200A55EB1 /* ZJPhotoBrowser.m */; };
+		9DB12C741EA70DB200A55EB1 /* ZJPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB12C6C1EA70DB200A55EB1 /* ZJPhotoCell.m */; };
+		9DB12C751EA70DB200A55EB1 /* ZJPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB12C6E1EA70DB200A55EB1 /* ZJPhotoView.m */; };
+		D89D0491BF87365279F986A0 /* libPods-ZJPhotoControllerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B05BDB41A6AA2D64632F4AC /* libPods-ZJPhotoControllerDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DB12C181EA7058600A55EB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DB12BF61EA7058600A55EB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DB12BFD1EA7058600A55EB1;
+			remoteInfo = ZJPhotoControllerDemo;
+		};
+		9DB12C231EA7058600A55EB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DB12BF61EA7058600A55EB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DB12BFD1EA7058600A55EB1;
+			remoteInfo = ZJPhotoControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2125188AB424B6A06FE035D1 /* Pods-ZJPhotoControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJPhotoControllerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJPhotoControllerDemo/Pods-ZJPhotoControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7B05BDB41A6AA2D64632F4AC /* libPods-ZJPhotoControllerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJPhotoControllerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DB12BFE1EA7058600A55EB1 /* ZJPhotoControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJPhotoControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DB12C021EA7058600A55EB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DB12C041EA7058600A55EB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DB12C051EA7058600A55EB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DB12C071EA7058600A55EB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9DB12C081EA7058600A55EB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9DB12C0B1EA7058600A55EB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DB12C0D1EA7058600A55EB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DB12C101EA7058600A55EB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DB12C121EA7058600A55EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DB12C171EA7058600A55EB1 /* ZJPhotoControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJPhotoControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DB12C1B1EA7058600A55EB1 /* ZJPhotoControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJPhotoControllerDemoTests.m; sourceTree = "<group>"; };
+		9DB12C1D1EA7058600A55EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DB12C221EA7058600A55EB1 /* ZJPhotoControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJPhotoControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DB12C261EA7058600A55EB1 /* ZJPhotoControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJPhotoControllerDemoUITests.m; sourceTree = "<group>"; };
+		9DB12C281EA7058600A55EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DB12C351EA705DE00A55EB1 /* image_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_0.jpg; sourceTree = "<group>"; };
+		9DB12C361EA705DE00A55EB1 /* image_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_1.jpg; sourceTree = "<group>"; };
+		9DB12C371EA705DE00A55EB1 /* image_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_2.jpg; sourceTree = "<group>"; };
+		9DB12C381EA705DE00A55EB1 /* image_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_3.jpg; sourceTree = "<group>"; };
+		9DB12C391EA705DE00A55EB1 /* image_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_4.jpg; sourceTree = "<group>"; };
+		9DB12C3A1EA705DE00A55EB1 /* image_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_5.jpg; sourceTree = "<group>"; };
+		9DB12C3B1EA705DE00A55EB1 /* image_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_6.jpg; sourceTree = "<group>"; };
+		9DB12C3C1EA705DE00A55EB1 /* image_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_7.jpg; sourceTree = "<group>"; };
+		9DB12C3D1EA705DE00A55EB1 /* image_8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_8.jpg; sourceTree = "<group>"; };
+		9DB12C611EA70DB200A55EB1 /* ZJAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJAction.h; sourceTree = "<group>"; };
+		9DB12C621EA70DB200A55EB1 /* ZJAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJAction.m; sourceTree = "<group>"; };
+		9DB12C631EA70DB200A55EB1 /* ZJActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJActionSheet.h; sourceTree = "<group>"; };
+		9DB12C641EA70DB200A55EB1 /* ZJActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJActionSheet.m; sourceTree = "<group>"; };
+		9DB12C651EA70DB200A55EB1 /* ZJIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJIndicatorView.h; sourceTree = "<group>"; };
+		9DB12C661EA70DB200A55EB1 /* ZJIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJIndicatorView.m; sourceTree = "<group>"; };
+		9DB12C671EA70DB200A55EB1 /* ZJPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPhoto.h; sourceTree = "<group>"; };
+		9DB12C681EA70DB200A55EB1 /* ZJPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPhoto.m; sourceTree = "<group>"; };
+		9DB12C691EA70DB200A55EB1 /* ZJPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPhotoBrowser.h; sourceTree = "<group>"; };
+		9DB12C6A1EA70DB200A55EB1 /* ZJPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPhotoBrowser.m; sourceTree = "<group>"; };
+		9DB12C6B1EA70DB200A55EB1 /* ZJPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPhotoCell.h; sourceTree = "<group>"; };
+		9DB12C6C1EA70DB200A55EB1 /* ZJPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPhotoCell.m; sourceTree = "<group>"; };
+		9DB12C6D1EA70DB200A55EB1 /* ZJPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPhotoView.h; sourceTree = "<group>"; };
+		9DB12C6E1EA70DB200A55EB1 /* ZJPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPhotoView.m; sourceTree = "<group>"; };
+		9DB12C761EA70DD000A55EB1 /* ZJPhotoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJPhotoController.h; sourceTree = "<group>"; };
+		AE16B461FFA4CBD6427D05CA /* Pods-ZJPhotoControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJPhotoControllerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJPhotoControllerDemo/Pods-ZJPhotoControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DB12BFB1EA7058600A55EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89D0491BF87365279F986A0 /* libPods-ZJPhotoControllerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DB12C141EA7058600A55EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DB12C1F1EA7058600A55EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70BF883D8EE21D686B186B54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE16B461FFA4CBD6427D05CA /* Pods-ZJPhotoControllerDemo.debug.xcconfig */,
+				2125188AB424B6A06FE035D1 /* Pods-ZJPhotoControllerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9DB12BF51EA7058600A55EB1 = {
+			isa = PBXGroup;
+			children = (
+				9DB12C001EA7058600A55EB1 /* ZJPhotoControllerDemo */,
+				9DB12C1A1EA7058600A55EB1 /* ZJPhotoControllerDemoTests */,
+				9DB12C251EA7058600A55EB1 /* ZJPhotoControllerDemoUITests */,
+				9DB12BFF1EA7058600A55EB1 /* Products */,
+				70BF883D8EE21D686B186B54 /* Pods */,
+				9F1D34B7736B86DE38E966D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9DB12BFF1EA7058600A55EB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DB12BFE1EA7058600A55EB1 /* ZJPhotoControllerDemo.app */,
+				9DB12C171EA7058600A55EB1 /* ZJPhotoControllerDemoTests.xctest */,
+				9DB12C221EA7058600A55EB1 /* ZJPhotoControllerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DB12C001EA7058600A55EB1 /* ZJPhotoControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9DB12C341EA705DE00A55EB1 /* pictures */,
+				9DB12C5E1EA70DB200A55EB1 /* ZJPhotoController */,
+				9DB12C041EA7058600A55EB1 /* AppDelegate.h */,
+				9DB12C051EA7058600A55EB1 /* AppDelegate.m */,
+				9DB12C071EA7058600A55EB1 /* ViewController.h */,
+				9DB12C081EA7058600A55EB1 /* ViewController.m */,
+				9DB12C0A1EA7058600A55EB1 /* Main.storyboard */,
+				9DB12C0D1EA7058600A55EB1 /* Assets.xcassets */,
+				9DB12C0F1EA7058600A55EB1 /* LaunchScreen.storyboard */,
+				9DB12C121EA7058600A55EB1 /* Info.plist */,
+				9DB12C011EA7058600A55EB1 /* Supporting Files */,
+			);
+			path = ZJPhotoControllerDemo;
+			sourceTree = "<group>";
+		};
+		9DB12C011EA7058600A55EB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DB12C021EA7058600A55EB1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DB12C1A1EA7058600A55EB1 /* ZJPhotoControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DB12C1B1EA7058600A55EB1 /* ZJPhotoControllerDemoTests.m */,
+				9DB12C1D1EA7058600A55EB1 /* Info.plist */,
+			);
+			path = ZJPhotoControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		9DB12C251EA7058600A55EB1 /* ZJPhotoControllerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DB12C261EA7058600A55EB1 /* ZJPhotoControllerDemoUITests.m */,
+				9DB12C281EA7058600A55EB1 /* Info.plist */,
+			);
+			path = ZJPhotoControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+		9DB12C341EA705DE00A55EB1 /* pictures */ = {
+			isa = PBXGroup;
+			children = (
+				9DB12C351EA705DE00A55EB1 /* image_0.jpg */,
+				9DB12C361EA705DE00A55EB1 /* image_1.jpg */,
+				9DB12C371EA705DE00A55EB1 /* image_2.jpg */,
+				9DB12C381EA705DE00A55EB1 /* image_3.jpg */,
+				9DB12C391EA705DE00A55EB1 /* image_4.jpg */,
+				9DB12C3A1EA705DE00A55EB1 /* image_5.jpg */,
+				9DB12C3B1EA705DE00A55EB1 /* image_6.jpg */,
+				9DB12C3C1EA705DE00A55EB1 /* image_7.jpg */,
+				9DB12C3D1EA705DE00A55EB1 /* image_8.jpg */,
+			);
+			path = pictures;
+			sourceTree = "<group>";
+		};
+		9DB12C5E1EA70DB200A55EB1 /* ZJPhotoController */ = {
+			isa = PBXGroup;
+			children = (
+				9DB12C761EA70DD000A55EB1 /* ZJPhotoController.h */,
+				9DB12C5F1EA70DB200A55EB1 /* ZJPhotoBrowser */,
+			);
+			path = ZJPhotoController;
+			sourceTree = "<group>";
+		};
+		9DB12C5F1EA70DB200A55EB1 /* ZJPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				9DB12C601EA70DB200A55EB1 /* ZJActionSheet */,
+				9DB12C651EA70DB200A55EB1 /* ZJIndicatorView.h */,
+				9DB12C661EA70DB200A55EB1 /* ZJIndicatorView.m */,
+				9DB12C671EA70DB200A55EB1 /* ZJPhoto.h */,
+				9DB12C681EA70DB200A55EB1 /* ZJPhoto.m */,
+				9DB12C691EA70DB200A55EB1 /* ZJPhotoBrowser.h */,
+				9DB12C6A1EA70DB200A55EB1 /* ZJPhotoBrowser.m */,
+				9DB12C6B1EA70DB200A55EB1 /* ZJPhotoCell.h */,
+				9DB12C6C1EA70DB200A55EB1 /* ZJPhotoCell.m */,
+				9DB12C6D1EA70DB200A55EB1 /* ZJPhotoView.h */,
+				9DB12C6E1EA70DB200A55EB1 /* ZJPhotoView.m */,
+			);
+			path = ZJPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		9DB12C601EA70DB200A55EB1 /* ZJActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				9DB12C611EA70DB200A55EB1 /* ZJAction.h */,
+				9DB12C621EA70DB200A55EB1 /* ZJAction.m */,
+				9DB12C631EA70DB200A55EB1 /* ZJActionSheet.h */,
+				9DB12C641EA70DB200A55EB1 /* ZJActionSheet.m */,
+			);
+			path = ZJActionSheet;
+			sourceTree = "<group>";
+		};
+		9F1D34B7736B86DE38E966D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B05BDB41A6AA2D64632F4AC /* libPods-ZJPhotoControllerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DB12BFD1EA7058600A55EB1 /* ZJPhotoControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DB12C2B1EA7058600A55EB1 /* Build configuration list for PBXNativeTarget "ZJPhotoControllerDemo" */;
+			buildPhases = (
+				209A898710DCABF4AE89DFA4 /* [CP] Check Pods Manifest.lock */,
+				9DB12BFA1EA7058600A55EB1 /* Sources */,
+				9DB12BFB1EA7058600A55EB1 /* Frameworks */,
+				9DB12BFC1EA7058600A55EB1 /* Resources */,
+				C16D5C7893FF1A44F379E58B /* [CP] Embed Pods Frameworks */,
+				69EFDD36A38FD1D2D2A64C8C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJPhotoControllerDemo;
+			productName = ZJPhotoControllerDemo;
+			productReference = 9DB12BFE1EA7058600A55EB1 /* ZJPhotoControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DB12C161EA7058600A55EB1 /* ZJPhotoControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DB12C2E1EA7058600A55EB1 /* Build configuration list for PBXNativeTarget "ZJPhotoControllerDemoTests" */;
+			buildPhases = (
+				9DB12C131EA7058600A55EB1 /* Sources */,
+				9DB12C141EA7058600A55EB1 /* Frameworks */,
+				9DB12C151EA7058600A55EB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DB12C191EA7058600A55EB1 /* PBXTargetDependency */,
+			);
+			name = ZJPhotoControllerDemoTests;
+			productName = ZJPhotoControllerDemoTests;
+			productReference = 9DB12C171EA7058600A55EB1 /* ZJPhotoControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DB12C211EA7058600A55EB1 /* ZJPhotoControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DB12C311EA7058600A55EB1 /* Build configuration list for PBXNativeTarget "ZJPhotoControllerDemoUITests" */;
+			buildPhases = (
+				9DB12C1E1EA7058600A55EB1 /* Sources */,
+				9DB12C1F1EA7058600A55EB1 /* Frameworks */,
+				9DB12C201EA7058600A55EB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DB12C241EA7058600A55EB1 /* PBXTargetDependency */,
+			);
+			name = ZJPhotoControllerDemoUITests;
+			productName = ZJPhotoControllerDemoUITests;
+			productReference = 9DB12C221EA7058600A55EB1 /* ZJPhotoControllerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DB12BF61EA7058600A55EB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = chenzhijian;
+				TargetAttributes = {
+					9DB12BFD1EA7058600A55EB1 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 65PF8T5L82;
+						ProvisioningStyle = Automatic;
+					};
+					9DB12C161EA7058600A55EB1 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 65PF8T5L82;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9DB12BFD1EA7058600A55EB1;
+					};
+					9DB12C211EA7058600A55EB1 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 65PF8T5L82;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9DB12BFD1EA7058600A55EB1;
+					};
+				};
+			};
+			buildConfigurationList = 9DB12BF91EA7058600A55EB1 /* Build configuration list for PBXProject "ZJPhotoControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DB12BF51EA7058600A55EB1;
+			productRefGroup = 9DB12BFF1EA7058600A55EB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DB12BFD1EA7058600A55EB1 /* ZJPhotoControllerDemo */,
+				9DB12C161EA7058600A55EB1 /* ZJPhotoControllerDemoTests */,
+				9DB12C211EA7058600A55EB1 /* ZJPhotoControllerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DB12BFC1EA7058600A55EB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB12C541EA705DE00A55EB1 /* image_6.jpg in Resources */,
+				9DB12C551EA705DE00A55EB1 /* image_7.jpg in Resources */,
+				9DB12C521EA705DE00A55EB1 /* image_4.jpg in Resources */,
+				9DB12C4F1EA705DE00A55EB1 /* image_1.jpg in Resources */,
+				9DB12C4E1EA705DE00A55EB1 /* image_0.jpg in Resources */,
+				9DB12C501EA705DE00A55EB1 /* image_2.jpg in Resources */,
+				9DB12C111EA7058600A55EB1 /* LaunchScreen.storyboard in Resources */,
+				9DB12C0E1EA7058600A55EB1 /* Assets.xcassets in Resources */,
+				9DB12C561EA705DE00A55EB1 /* image_8.jpg in Resources */,
+				9DB12C511EA705DE00A55EB1 /* image_3.jpg in Resources */,
+				9DB12C0C1EA7058600A55EB1 /* Main.storyboard in Resources */,
+				9DB12C531EA705DE00A55EB1 /* image_5.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DB12C151EA7058600A55EB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DB12C201EA7058600A55EB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		209A898710DCABF4AE89DFA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		69EFDD36A38FD1D2D2A64C8C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJPhotoControllerDemo/Pods-ZJPhotoControllerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C16D5C7893FF1A44F379E58B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJPhotoControllerDemo/Pods-ZJPhotoControllerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DB12BFA1EA7058600A55EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB12C721EA70DB200A55EB1 /* ZJPhoto.m in Sources */,
+				9DB12C091EA7058600A55EB1 /* ViewController.m in Sources */,
+				9DB12C751EA70DB200A55EB1 /* ZJPhotoView.m in Sources */,
+				9DB12C711EA70DB200A55EB1 /* ZJIndicatorView.m in Sources */,
+				9DB12C731EA70DB200A55EB1 /* ZJPhotoBrowser.m in Sources */,
+				9DB12C741EA70DB200A55EB1 /* ZJPhotoCell.m in Sources */,
+				9DB12C6F1EA70DB200A55EB1 /* ZJAction.m in Sources */,
+				9DB12C061EA7058600A55EB1 /* AppDelegate.m in Sources */,
+				9DB12C031EA7058600A55EB1 /* main.m in Sources */,
+				9DB12C701EA70DB200A55EB1 /* ZJActionSheet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DB12C131EA7058600A55EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB12C1C1EA7058600A55EB1 /* ZJPhotoControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DB12C1E1EA7058600A55EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB12C271EA7058600A55EB1 /* ZJPhotoControllerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DB12C191EA7058600A55EB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DB12BFD1EA7058600A55EB1 /* ZJPhotoControllerDemo */;
+			targetProxy = 9DB12C181EA7058600A55EB1 /* PBXContainerItemProxy */;
+		};
+		9DB12C241EA7058600A55EB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DB12BFD1EA7058600A55EB1 /* ZJPhotoControllerDemo */;
+			targetProxy = 9DB12C231EA7058600A55EB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DB12C0A1EA7058600A55EB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DB12C0B1EA7058600A55EB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DB12C0F1EA7058600A55EB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DB12C101EA7058600A55EB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DB12C291EA7058600A55EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DB12C2A1EA7058600A55EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DB12C2C1EA7058600A55EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE16B461FFA4CBD6427D05CA /* Pods-ZJPhotoControllerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65PF8T5L82;
+				INFOPLIST_FILE = ZJPhotoControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhijian.ZJPhotoControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9DB12C2D1EA7058600A55EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2125188AB424B6A06FE035D1 /* Pods-ZJPhotoControllerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65PF8T5L82;
+				INFOPLIST_FILE = ZJPhotoControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhijian.ZJPhotoControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9DB12C2F1EA7058600A55EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 65PF8T5L82;
+				INFOPLIST_FILE = ZJPhotoControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhijian.ZJPhotoControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJPhotoControllerDemo.app/ZJPhotoControllerDemo";
+			};
+			name = Debug;
+		};
+		9DB12C301EA7058600A55EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 65PF8T5L82;
+				INFOPLIST_FILE = ZJPhotoControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhijian.ZJPhotoControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJPhotoControllerDemo.app/ZJPhotoControllerDemo";
+			};
+			name = Release;
+		};
+		9DB12C321EA7058600A55EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 65PF8T5L82;
+				INFOPLIST_FILE = ZJPhotoControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhijian.ZJPhotoControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJPhotoControllerDemo;
+			};
+			name = Debug;
+		};
+		9DB12C331EA7058600A55EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 65PF8T5L82;
+				INFOPLIST_FILE = ZJPhotoControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhijian.ZJPhotoControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJPhotoControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DB12BF91EA7058600A55EB1 /* Build configuration list for PBXProject "ZJPhotoControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DB12C291EA7058600A55EB1 /* Debug */,
+				9DB12C2A1EA7058600A55EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DB12C2B1EA7058600A55EB1 /* Build configuration list for PBXNativeTarget "ZJPhotoControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DB12C2C1EA7058600A55EB1 /* Debug */,
+				9DB12C2D1EA7058600A55EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DB12C2E1EA7058600A55EB1 /* Build configuration list for PBXNativeTarget "ZJPhotoControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DB12C2F1EA7058600A55EB1 /* Debug */,
+				9DB12C301EA7058600A55EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DB12C311EA7058600A55EB1 /* Build configuration list for PBXNativeTarget "ZJPhotoControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DB12C321EA7058600A55EB1 /* Debug */,
+				9DB12C331EA7058600A55EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DB12BF61EA7058600A55EB1 /* Project object */;
+}
