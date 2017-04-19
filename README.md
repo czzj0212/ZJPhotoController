@@ -4,6 +4,12 @@
 由于加载大图时使用的第三方库SDWebImage,所以需要另外导入SDWebImage
 
  ![image](./images/browsergif.gif)
+ 
+## 安装方法
+### 1.使用CocoaPods进行安装：pod 'ZJPhotoController'
+### 2.手动导入：
+拖动文件夹中的所有文件ZJPhotoController到工程中
+导入主文件：#import "ZJPhotoController.h"
 
 ## 使用方法
 ### 一、在图片的点击事件中添加以下代码,弹出浏览器
