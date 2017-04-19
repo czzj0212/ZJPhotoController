@@ -7,10 +7,10 @@
  
 ## 安装方法
 
-### 1.使用CocoaPods进行安装：
+### 1. 使用CocoaPods进行安装：
 pod 'ZJPhotoController'
 
-### 2.手动导入：
+### 2. 手动导入：
 拖动文件夹中的所有文件ZJPhotoController到工程中
 导入主文件：#import "ZJPhotoController.h"
 

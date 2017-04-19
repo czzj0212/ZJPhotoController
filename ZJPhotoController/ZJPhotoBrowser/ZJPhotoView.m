@@ -104,8 +104,11 @@
     ZJIndicatorView *indicatorView = [ZJIndicatorView indicatorShowInView:self];
     //加载大图
     [_imageView sd_setImageWithPreviousCachedImageWithURL:_zjPhoto.url placeholderImage:_zjPhoto.srcImageView.image options:SDWebImageRetryFailed progress:^(NSInteger receivedSize, NSInteger expectedSize) {
-        indicatorView.progress = (CGFloat)receivedSize / expectedSize;
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
 
+            indicatorView.progress = (CGFloat)receivedSize / expectedSize;
+        });
     } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
         
         BOOL success = YES;

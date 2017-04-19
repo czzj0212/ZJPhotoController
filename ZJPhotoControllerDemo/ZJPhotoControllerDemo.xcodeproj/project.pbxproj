@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D3833041EA7335F00D4AA71 /* ZJAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3832F61EA7335F00D4AA71 /* ZJAction.m */; };
+		9D3833051EA7335F00D4AA71 /* ZJActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3832F81EA7335F00D4AA71 /* ZJActionSheet.m */; };
+		9D3833061EA7335F00D4AA71 /* ZJIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3832FA1EA7335F00D4AA71 /* ZJIndicatorView.m */; };
+		9D3833071EA7335F00D4AA71 /* ZJPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3832FC1EA7335F00D4AA71 /* ZJPhoto.m */; };
+		9D3833081EA7335F00D4AA71 /* ZJPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3832FE1EA7335F00D4AA71 /* ZJPhotoBrowser.m */; };
+		9D3833091EA7335F00D4AA71 /* ZJPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3833001EA7335F00D4AA71 /* ZJPhotoCell.m */; };
+		9D38330A1EA7335F00D4AA71 /* ZJPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3833021EA7335F00D4AA71 /* ZJPhotoView.m */; };
 		9DB12C031EA7058600A55EB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB12C021EA7058600A55EB1 /* main.m */; };
 		9DB12C061EA7058600A55EB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB12C051EA7058600A55EB1 /* AppDelegate.m */; };
 		9DB12C091EA7058600A55EB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB12C081EA7058600A55EB1 /* ViewController.m */; };
@@ -24,13 +31,6 @@
 		9DB12C541EA705DE00A55EB1 /* image_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB12C3B1EA705DE00A55EB1 /* image_6.jpg */; };
 		9DB12C551EA705DE00A55EB1 /* image_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB12C3C1EA705DE00A55EB1 /* image_7.jpg */; };
 		9DB12C561EA705DE00A55EB1 /* image_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB12C3D1EA705DE00A55EB1 /* image_8.jpg */; };
-		9DB12C6F1EA70DB200A55EB1 /* ZJAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB12C621EA70DB200A55EB1 /* ZJAction.m */; };
-		9DB12C701EA70DB200A55EB1 /* ZJActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB12C641EA70DB200A55EB1 /* ZJActionSheet.m */; };
-		9DB12C711EA70DB200A55EB1 /* ZJIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB12C661EA70DB200A55EB1 /* ZJIndicatorView.m */; };
-		9DB12C721EA70DB200A55EB1 /* ZJPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB12C681EA70DB200A55EB1 /* ZJPhoto.m */; };
-		9DB12C731EA70DB200A55EB1 /* ZJPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB12C6A1EA70DB200A55EB1 /* ZJPhotoBrowser.m */; };
-		9DB12C741EA70DB200A55EB1 /* ZJPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB12C6C1EA70DB200A55EB1 /* ZJPhotoCell.m */; };
-		9DB12C751EA70DB200A55EB1 /* ZJPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB12C6E1EA70DB200A55EB1 /* ZJPhotoView.m */; };
 		D89D0491BF87365279F986A0 /* libPods-ZJPhotoControllerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B05BDB41A6AA2D64632F4AC /* libPods-ZJPhotoControllerDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +54,21 @@
 /* Begin PBXFileReference section */
 		2125188AB424B6A06FE035D1 /* Pods-ZJPhotoControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJPhotoControllerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJPhotoControllerDemo/Pods-ZJPhotoControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		7B05BDB41A6AA2D64632F4AC /* libPods-ZJPhotoControllerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJPhotoControllerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D3832F51EA7335F00D4AA71 /* ZJAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJAction.h; sourceTree = "<group>"; };
+		9D3832F61EA7335F00D4AA71 /* ZJAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJAction.m; sourceTree = "<group>"; };
+		9D3832F71EA7335F00D4AA71 /* ZJActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJActionSheet.h; sourceTree = "<group>"; };
+		9D3832F81EA7335F00D4AA71 /* ZJActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJActionSheet.m; sourceTree = "<group>"; };
+		9D3832F91EA7335F00D4AA71 /* ZJIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJIndicatorView.h; sourceTree = "<group>"; };
+		9D3832FA1EA7335F00D4AA71 /* ZJIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJIndicatorView.m; sourceTree = "<group>"; };
+		9D3832FB1EA7335F00D4AA71 /* ZJPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPhoto.h; sourceTree = "<group>"; };
+		9D3832FC1EA7335F00D4AA71 /* ZJPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPhoto.m; sourceTree = "<group>"; };
+		9D3832FD1EA7335F00D4AA71 /* ZJPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPhotoBrowser.h; sourceTree = "<group>"; };
+		9D3832FE1EA7335F00D4AA71 /* ZJPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPhotoBrowser.m; sourceTree = "<group>"; };
+		9D3832FF1EA7335F00D4AA71 /* ZJPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPhotoCell.h; sourceTree = "<group>"; };
+		9D3833001EA7335F00D4AA71 /* ZJPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPhotoCell.m; sourceTree = "<group>"; };
+		9D3833011EA7335F00D4AA71 /* ZJPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPhotoView.h; sourceTree = "<group>"; };
+		9D3833021EA7335F00D4AA71 /* ZJPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPhotoView.m; sourceTree = "<group>"; };
+		9D3833031EA7335F00D4AA71 /* ZJPhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPhotoController.h; sourceTree = "<group>"; };
 		9DB12BFE1EA7058600A55EB1 /* ZJPhotoControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJPhotoControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DB12C021EA7058600A55EB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9DB12C041EA7058600A55EB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,21 +94,6 @@
 		9DB12C3B1EA705DE00A55EB1 /* image_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_6.jpg; sourceTree = "<group>"; };
 		9DB12C3C1EA705DE00A55EB1 /* image_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_7.jpg; sourceTree = "<group>"; };
 		9DB12C3D1EA705DE00A55EB1 /* image_8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_8.jpg; sourceTree = "<group>"; };
-		9DB12C611EA70DB200A55EB1 /* ZJAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJAction.h; sourceTree = "<group>"; };
-		9DB12C621EA70DB200A55EB1 /* ZJAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJAction.m; sourceTree = "<group>"; };
-		9DB12C631EA70DB200A55EB1 /* ZJActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJActionSheet.h; sourceTree = "<group>"; };
-		9DB12C641EA70DB200A55EB1 /* ZJActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJActionSheet.m; sourceTree = "<group>"; };
-		9DB12C651EA70DB200A55EB1 /* ZJIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJIndicatorView.h; sourceTree = "<group>"; };
-		9DB12C661EA70DB200A55EB1 /* ZJIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJIndicatorView.m; sourceTree = "<group>"; };
-		9DB12C671EA70DB200A55EB1 /* ZJPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPhoto.h; sourceTree = "<group>"; };
-		9DB12C681EA70DB200A55EB1 /* ZJPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPhoto.m; sourceTree = "<group>"; };
-		9DB12C691EA70DB200A55EB1 /* ZJPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPhotoBrowser.h; sourceTree = "<group>"; };
-		9DB12C6A1EA70DB200A55EB1 /* ZJPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPhotoBrowser.m; sourceTree = "<group>"; };
-		9DB12C6B1EA70DB200A55EB1 /* ZJPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPhotoCell.h; sourceTree = "<group>"; };
-		9DB12C6C1EA70DB200A55EB1 /* ZJPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPhotoCell.m; sourceTree = "<group>"; };
-		9DB12C6D1EA70DB200A55EB1 /* ZJPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPhotoView.h; sourceTree = "<group>"; };
-		9DB12C6E1EA70DB200A55EB1 /* ZJPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPhotoView.m; sourceTree = "<group>"; };
-		9DB12C761EA70DD000A55EB1 /* ZJPhotoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJPhotoController.h; sourceTree = "<group>"; };
 		AE16B461FFA4CBD6427D05CA /* Pods-ZJPhotoControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJPhotoControllerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJPhotoControllerDemo/Pods-ZJPhotoControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +132,44 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9D3832F21EA7335F00D4AA71 /* ZJPhotoController */ = {
+			isa = PBXGroup;
+			children = (
+				9D3832F31EA7335F00D4AA71 /* ZJPhotoBrowser */,
+				9D3833031EA7335F00D4AA71 /* ZJPhotoController.h */,
+			);
+			path = ZJPhotoController;
+			sourceTree = "<group>";
+		};
+		9D3832F31EA7335F00D4AA71 /* ZJPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				9D3832F41EA7335F00D4AA71 /* ZJActionSheet */,
+				9D3832F91EA7335F00D4AA71 /* ZJIndicatorView.h */,
+				9D3832FA1EA7335F00D4AA71 /* ZJIndicatorView.m */,
+				9D3832FB1EA7335F00D4AA71 /* ZJPhoto.h */,
+				9D3832FC1EA7335F00D4AA71 /* ZJPhoto.m */,
+				9D3832FD1EA7335F00D4AA71 /* ZJPhotoBrowser.h */,
+				9D3832FE1EA7335F00D4AA71 /* ZJPhotoBrowser.m */,
+				9D3832FF1EA7335F00D4AA71 /* ZJPhotoCell.h */,
+				9D3833001EA7335F00D4AA71 /* ZJPhotoCell.m */,
+				9D3833011EA7335F00D4AA71 /* ZJPhotoView.h */,
+				9D3833021EA7335F00D4AA71 /* ZJPhotoView.m */,
+			);
+			path = ZJPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		9D3832F41EA7335F00D4AA71 /* ZJActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				9D3832F51EA7335F00D4AA71 /* ZJAction.h */,
+				9D3832F61EA7335F00D4AA71 /* ZJAction.m */,
+				9D3832F71EA7335F00D4AA71 /* ZJActionSheet.h */,
+				9D3832F81EA7335F00D4AA71 /* ZJActionSheet.m */,
+			);
+			path = ZJActionSheet;
+			sourceTree = "<group>";
+		};
 		9DB12BF51EA7058600A55EB1 = {
 			isa = PBXGroup;
 			children = (
@@ -157,8 +195,8 @@
 		9DB12C001EA7058600A55EB1 /* ZJPhotoControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9D3832F21EA7335F00D4AA71 /* ZJPhotoController */,
 				9DB12C341EA705DE00A55EB1 /* pictures */,
-				9DB12C5E1EA70DB200A55EB1 /* ZJPhotoController */,
 				9DB12C041EA7058600A55EB1 /* AppDelegate.h */,
 				9DB12C051EA7058600A55EB1 /* AppDelegate.m */,
 				9DB12C071EA7058600A55EB1 /* ViewController.h */,
@@ -212,44 +250,6 @@
 				9DB12C3D1EA705DE00A55EB1 /* image_8.jpg */,
 			);
 			path = pictures;
-			sourceTree = "<group>";
-		};
-		9DB12C5E1EA70DB200A55EB1 /* ZJPhotoController */ = {
-			isa = PBXGroup;
-			children = (
-				9DB12C761EA70DD000A55EB1 /* ZJPhotoController.h */,
-				9DB12C5F1EA70DB200A55EB1 /* ZJPhotoBrowser */,
-			);
-			path = ZJPhotoController;
-			sourceTree = "<group>";
-		};
-		9DB12C5F1EA70DB200A55EB1 /* ZJPhotoBrowser */ = {
-			isa = PBXGroup;
-			children = (
-				9DB12C601EA70DB200A55EB1 /* ZJActionSheet */,
-				9DB12C651EA70DB200A55EB1 /* ZJIndicatorView.h */,
-				9DB12C661EA70DB200A55EB1 /* ZJIndicatorView.m */,
-				9DB12C671EA70DB200A55EB1 /* ZJPhoto.h */,
-				9DB12C681EA70DB200A55EB1 /* ZJPhoto.m */,
-				9DB12C691EA70DB200A55EB1 /* ZJPhotoBrowser.h */,
-				9DB12C6A1EA70DB200A55EB1 /* ZJPhotoBrowser.m */,
-				9DB12C6B1EA70DB200A55EB1 /* ZJPhotoCell.h */,
-				9DB12C6C1EA70DB200A55EB1 /* ZJPhotoCell.m */,
-				9DB12C6D1EA70DB200A55EB1 /* ZJPhotoView.h */,
-				9DB12C6E1EA70DB200A55EB1 /* ZJPhotoView.m */,
-			);
-			path = ZJPhotoBrowser;
-			sourceTree = "<group>";
-		};
-		9DB12C601EA70DB200A55EB1 /* ZJActionSheet */ = {
-			isa = PBXGroup;
-			children = (
-				9DB12C611EA70DB200A55EB1 /* ZJAction.h */,
-				9DB12C621EA70DB200A55EB1 /* ZJAction.m */,
-				9DB12C631EA70DB200A55EB1 /* ZJActionSheet.h */,
-				9DB12C641EA70DB200A55EB1 /* ZJActionSheet.m */,
-			);
-			path = ZJActionSheet;
 			sourceTree = "<group>";
 		};
 		9F1D34B7736B86DE38E966D1 /* Frameworks */ = {
@@ -456,16 +456,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DB12C721EA70DB200A55EB1 /* ZJPhoto.m in Sources */,
+				9D3833071EA7335F00D4AA71 /* ZJPhoto.m in Sources */,
 				9DB12C091EA7058600A55EB1 /* ViewController.m in Sources */,
-				9DB12C751EA70DB200A55EB1 /* ZJPhotoView.m in Sources */,
-				9DB12C711EA70DB200A55EB1 /* ZJIndicatorView.m in Sources */,
-				9DB12C731EA70DB200A55EB1 /* ZJPhotoBrowser.m in Sources */,
-				9DB12C741EA70DB200A55EB1 /* ZJPhotoCell.m in Sources */,
-				9DB12C6F1EA70DB200A55EB1 /* ZJAction.m in Sources */,
+				9D3833051EA7335F00D4AA71 /* ZJActionSheet.m in Sources */,
 				9DB12C061EA7058600A55EB1 /* AppDelegate.m in Sources */,
 				9DB12C031EA7058600A55EB1 /* main.m in Sources */,
-				9DB12C701EA70DB200A55EB1 /* ZJActionSheet.m in Sources */,
+				9D3833091EA7335F00D4AA71 /* ZJPhotoCell.m in Sources */,
+				9D3833081EA7335F00D4AA71 /* ZJPhotoBrowser.m in Sources */,
+				9D3833061EA7335F00D4AA71 /* ZJIndicatorView.m in Sources */,
+				9D3833041EA7335F00D4AA71 /* ZJAction.m in Sources */,
+				9D38330A1EA7335F00D4AA71 /* ZJPhotoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

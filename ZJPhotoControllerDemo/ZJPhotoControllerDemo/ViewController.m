@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-//#import "ZJPhotoBrowser.h"
 #import "ZJPhotoController.h"
 @interface ViewController ()<ZJPhotoBrowerDelegate>
 
