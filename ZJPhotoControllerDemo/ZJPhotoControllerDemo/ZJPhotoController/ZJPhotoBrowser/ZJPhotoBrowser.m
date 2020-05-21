@@ -242,6 +242,7 @@ static NSString *identifier = @"ZJPhotoCellID";
         self.totalPhotoNub = [self.delegate numberOfPhotosInPhotoBrowser:self];
     }
     self.tapIndex = index;
+    self.modalPresentationStyle = UIModalPresentationFullScreen;
     //弹出
     UIViewController* topVC = [self currentViewController];
     [topVC presentViewController:self animated:NO completion:^{}];

@@ -76,7 +76,7 @@
 
     _imageView.image = _zjPhoto.srcImageView.image;
     
-    _imageView.frame = [_zjPhoto.srcImageView convertRect:_zjPhoto.srcImageView.bounds toView:nil];
+    _imageView.frame = [_zjPhoto.srcImageView convertRect:_zjPhoto.srcImageView.bounds toView:[UIApplication sharedApplication].keyWindow];
 
     CGRect imageRect = [self adjustFrameWithImage:_zjPhoto.srcImageView.image];
     
@@ -124,35 +124,7 @@
         });
      
     }];
-  
-    
-//    [_imageView sd_setImageWithURL:_zjPhoto.url placeholderImage:_zjPhoto.srcImageView.image options:SDWebImageRetryFailed progress:^(NSInteger receivedSize, NSInteger expectedSize, NSURL * _Nullable targetURL) {
-//        dispatch_async(dispatch_get_main_queue(), ^{
-//            
-//            indicatorView.progress = (CGFloat)receivedSize / expectedSize;
-//        });
-//
-//        
-//    } completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
-//        
-//        BOOL success = YES;
-//        if (error) {
-//            
-//            success = NO;
-//        }
-//        self.bigImageHasLoad = success;
-//        
-//        dispatch_async(dispatch_get_main_queue(), ^{
-//            
-//            [indicatorView hideIndicatorViewWithSucceed:success];
-//        });
-//
-//    }];
-    
-//    [_imageView sd_setImageWithURL:_zjPhoto.url placeholderImage:_zjPhoto.srcImageView.image options:SDWebImageRetryFailed progress:^(NSInteger receivedSize, NSInteger expectedSize) {
-//        
-//           } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
-//           }];
+
 
 }
 

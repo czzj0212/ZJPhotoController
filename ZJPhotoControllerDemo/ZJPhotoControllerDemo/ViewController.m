@@ -83,20 +83,20 @@
 - (ZJPhoto *)photoBrowser:(ZJPhotoBrowser *)photoBrowser photoAtIndex:(NSUInteger)index {
     
     ZJPhoto *zjPhoto = [[ZJPhoto alloc] init];
-    zjPhoto.srcImageView = _viewArray[index];
+//    zjPhoto.srcImageView = _viewArray[index];
     zjPhoto.url = [NSURL URLWithString:_picsArray[index]];
     return zjPhoto;
 }
 //返回长按的事件,默认有保存图片
-- (NSArray<ZJAction *> *)longPressActionsInPhotoBrowser:(ZJPhotoBrowser *)photoBrowser image:(UIImage *)image{
-    
-    ZJAction* action =  [[ZJAction alloc] initWithTitle:@"自定义" action:^{
-        NSLog(@"img%@", image);
-        
-    }];
-    
-    return @[action];
-}
+//- (NSArray<ZJAction *> *)longPressActionsInPhotoBrowser:(ZJPhotoBrowser *)photoBrowser image:(UIImage *)image{
+//    
+//    ZJAction* action =  [[ZJAction alloc] initWithTitle:@"自定义" action:^{
+//        NSLog(@"img%@", image);
+//        
+//    }];
+//    
+//    return @[action];
+//}
 
 
 @end
