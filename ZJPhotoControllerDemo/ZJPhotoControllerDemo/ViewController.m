@@ -83,7 +83,7 @@
 - (ZJPhoto *)photoBrowser:(ZJPhotoBrowser *)photoBrowser photoAtIndex:(NSUInteger)index {
     
     ZJPhoto *zjPhoto = [[ZJPhoto alloc] init];
-//    zjPhoto.srcImageView = _viewArray[index];
+    zjPhoto.srcImageView = _viewArray[index];
     zjPhoto.url = [NSURL URLWithString:_picsArray[index]];
     return zjPhoto;
 }

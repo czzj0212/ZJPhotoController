@@ -36,5 +36,85 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B8497AEE-8A96-4CEC-9188-5CE235FC9E70"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZJPhotoControllerDemo/ZJPhotoController/ZJPhotoBrowser/ZJPhotoView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "-loadBigImageWithUrl"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B8497AEE-8A96-4CEC-9188-5CE235FC9E70 - 7fa10a69de57a9f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ZJPhotoView loadBigImageWithUrl]"
+                  moduleName = "ZJPhotoControllerDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/songyihan/ZJPhotoController/ZJPhotoControllerDemo/ZJPhotoControllerDemo/ZJPhotoController/ZJPhotoBrowser/ZJPhotoView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "61">
+               </Location>
+               <Location
+                  uuid = "B8497AEE-8A96-4CEC-9188-5CE235FC9E70 - 8058fce0ca9fd08d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__34-[ZJPhotoView loadBigImageWithUrl]_block_invoke"
+                  moduleName = "ZJPhotoControllerDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/songyihan/ZJPhotoController/ZJPhotoControllerDemo/ZJPhotoControllerDemo/ZJPhotoController/ZJPhotoBrowser/ZJPhotoView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C74E73E-A6E7-48C8-B9A5-E75F568FA5C3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZJPhotoControllerDemo/ZJPhotoController/ZJPhotoBrowser/ZJPhotoView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "-loadBigImageWithUrl"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9349CF9A-697B-4FD0-934B-76B3EC72E04C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZJPhotoControllerDemo/ZJPhotoController/ZJPhotoBrowser/ZJPhotoView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "-loadBigImageWithUrl"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
